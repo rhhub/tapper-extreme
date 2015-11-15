@@ -51,6 +51,9 @@
                                     <constraint firstAttribute="height" constant="189" id="9QZ-Wq-xpk"/>
                                 </constraints>
                                 <state key="normal" image="coin"/>
+                                <connections>
+                                    <action selector="coinTapButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IN7-Fe-wRM"/>
+                                </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="100 Taps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8XQ-m9-l3C">
                                 <rect key="frame" x="103" y="264" width="394" height="63"/>
@@ -68,7 +71,7 @@
                                     <constraint firstAttribute="height" constant="45" id="fM2-Hs-u7O"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

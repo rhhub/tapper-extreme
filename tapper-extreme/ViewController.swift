@@ -11,18 +11,30 @@ import UIKit
 class ViewController: UIViewController {
     // Properties
     
-    var maxTaps = 0
-    var currentTaps = 0
+    private var maxTaps = 0
+    private var currentTaps = 0 {
+        didSet {
+            tapsLabel.text? = "\(currentTaps) Taps"
+        }
+    }
     
     // Outlets
-    @IBOutlet weak var logoImage: UIImageView!
-    @IBOutlet weak var howManyTapsTxt: UITextField!
-    @IBOutlet weak var playButton: UIButton!
+    @IBOutlet weak private var logoImage: UIImageView!
+    @IBOutlet weak private var howManyTapsTxt: UITextField!
+    @IBOutlet weak private var playButton: UIButton!
     
-    @IBOutlet weak var tapButton: UIButton!
-    @IBOutlet weak var tapsLabel: UILabel!
+    @IBOutlet weak private var tapButton: UIButton!
+    @IBOutlet weak private var tapsLabel: UILabel!
     
-    @IBAction func onPlayButtonPressed(sender: UIButton!) {
+    @IBAction private func coinTapButtonPressed(sender: UIButton) {
+        currentTaps++
+        
+        if isGameOver() {
+            restartGame()
+        }
+    }
+    
+    @IBAction private func onPlayButtonPressed(sender: UIButton!) {
         if let tapsString = howManyTapsTxt.text {
             if let tapsInt = Int(tapsString) {
                 logoImage.hidden = true
@@ -34,9 +46,24 @@ class ViewController: UIViewController {
                 
                 maxTaps = tapsInt
                 currentTaps = 0
-                tapsLabel.text = "\(currentTaps) Taps"
             }
         }
+    }
+    
+    private func restartGame() {
+        maxTaps = 0
+        howManyTapsTxt.text = ""
+        
+        logoImage.hidden = false
+        playButton.hidden = false
+        howManyTapsTxt.hidden = false
+        
+        tapButton.hidden = true
+        tapsLabel.hidden = true
+    }
+    
+    private func isGameOver() -> Bool {
+        return currentTaps >= maxTaps ? true : false
     }
 }
 
