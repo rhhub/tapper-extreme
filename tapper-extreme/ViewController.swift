@@ -9,7 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    // Properties
+    
+    var maxTaps = 0
+    var currentTaps = 0
+    
+    // Outlets
     @IBOutlet weak var logoImage: UIImageView!
     @IBOutlet weak var howManyTapsTxt: UITextField!
     @IBOutlet weak var playButton: UIButton!
@@ -18,12 +23,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var tapsLabel: UILabel!
     
     @IBAction func onPlayButtonPressed(sender: UIButton!) {
-        logoImage.hidden = true
-        playButton.hidden = true
-        howManyTapsTxt.hidden = true
-        
-        tapButton.hidden = false
-        tapsLabel.hidden = false
+        if let tapsString = howManyTapsTxt.text {
+            if let tapsInt = Int(tapsString) {
+                logoImage.hidden = true
+                playButton.hidden = true
+                howManyTapsTxt.hidden = true
+                
+                tapButton.hidden = false
+                tapsLabel.hidden = false
+                
+                maxTaps = tapsInt
+                currentTaps = 0
+                tapsLabel.text = "\(currentTaps) Taps"
+            }
+        }
     }
 }
 
