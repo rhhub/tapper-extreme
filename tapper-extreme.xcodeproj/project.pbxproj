@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFD208711BF92EDC000DE448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD208701BF92EDC000DE448 /* AppDelegate.swift */; };
+		AFD208731BF92EDC000DE448 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD208721BF92EDC000DE448 /* ViewController.swift */; };
+		AFD208761BF92EDC000DE448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD208741BF92EDC000DE448 /* Main.storyboard */; };
+		AFD208781BF92EDC000DE448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD208771BF92EDC000DE448 /* Assets.xcassets */; };
+		AFD2087B1BF92EDC000DE448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD208791BF92EDC000DE448 /* LaunchScreen.storyboard */; };
+		AFD208861BF92EDD000DE448 /* tapper_extremeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD208851BF92EDD000DE448 /* tapper_extremeTests.swift */; };
+		AFD208911BF92EDD000DE448 /* tapper_extremeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD208901BF92EDD000DE448 /* tapper_extremeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFD208821BF92EDD000DE448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD208651BF92EDC000DE448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD2086C1BF92EDC000DE448;
+			remoteInfo = "tapper-extreme";
+		};
+		AFD2088D1BF92EDD000DE448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD208651BF92EDC000DE448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD2086C1BF92EDC000DE448;
+			remoteInfo = "tapper-extreme";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFD2086D1BF92EDC000DE448 /* tapper-extreme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tapper-extreme.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD208701BF92EDC000DE448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFD208721BF92EDC000DE448 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFD208751BF92EDC000DE448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFD208771BF92EDC000DE448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFD2087A1BF92EDC000DE448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFD2087C1BF92EDC000DE448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD208811BF92EDD000DE448 /* tapper-extremeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tapper-extremeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD208851BF92EDD000DE448 /* tapper_extremeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapper_extremeTests.swift; sourceTree = "<group>"; };
+		AFD208871BF92EDD000DE448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD2088C1BF92EDD000DE448 /* tapper-extremeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tapper-extremeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD208901BF92EDD000DE448 /* tapper_extremeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapper_extremeUITests.swift; sourceTree = "<group>"; };
+		AFD208921BF92EDD000DE448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFD2086A1BF92EDC000DE448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD2087E1BF92EDD000DE448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD208891BF92EDD000DE448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFD208641BF92EDC000DE448 = {
+			isa = PBXGroup;
+			children = (
+				AFD2086F1BF92EDC000DE448 /* tapper-extreme */,
+				AFD208841BF92EDD000DE448 /* tapper-extremeTests */,
+				AFD2088F1BF92EDD000DE448 /* tapper-extremeUITests */,
+				AFD2086E1BF92EDC000DE448 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFD2086E1BF92EDC000DE448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFD2086D1BF92EDC000DE448 /* tapper-extreme.app */,
+				AFD208811BF92EDD000DE448 /* tapper-extremeTests.xctest */,
+				AFD2088C1BF92EDD000DE448 /* tapper-extremeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFD2086F1BF92EDC000DE448 /* tapper-extreme */ = {
+			isa = PBXGroup;
+			children = (
+				AFD208701BF92EDC000DE448 /* AppDelegate.swift */,
+				AFD208721BF92EDC000DE448 /* ViewController.swift */,
+				AFD208741BF92EDC000DE448 /* Main.storyboard */,
+				AFD208771BF92EDC000DE448 /* Assets.xcassets */,
+				AFD208791BF92EDC000DE448 /* LaunchScreen.storyboard */,
+				AFD2087C1BF92EDC000DE448 /* Info.plist */,
+			);
+			path = "tapper-extreme";
+			sourceTree = "<group>";
+		};
+		AFD208841BF92EDD000DE448 /* tapper-extremeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFD208851BF92EDD000DE448 /* tapper_extremeTests.swift */,
+				AFD208871BF92EDD000DE448 /* Info.plist */,
+			);
+			path = "tapper-extremeTests";
+			sourceTree = "<group>";
+		};
+		AFD2088F1BF92EDD000DE448 /* tapper-extremeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFD208901BF92EDD000DE448 /* tapper_extremeUITests.swift */,
+				AFD208921BF92EDD000DE448 /* Info.plist */,
+			);
+			path = "tapper-extremeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFD2086C1BF92EDC000DE448 /* tapper-extreme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD208951BF92EDD000DE448 /* Build configuration list for PBXNativeTarget "tapper-extreme" */;
+			buildPhases = (
+				AFD208691BF92EDC000DE448 /* Sources */,
+				AFD2086A1BF92EDC000DE448 /* Frameworks */,
+				AFD2086B1BF92EDC000DE448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tapper-extreme";
+			productName = "tapper-extreme";
+			productReference = AFD2086D1BF92EDC000DE448 /* tapper-extreme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFD208801BF92EDD000DE448 /* tapper-extremeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD208981BF92EDD000DE448 /* Build configuration list for PBXNativeTarget "tapper-extremeTests" */;
+			buildPhases = (
+				AFD2087D1BF92EDD000DE448 /* Sources */,
+				AFD2087E1BF92EDD000DE448 /* Frameworks */,
+				AFD2087F1BF92EDD000DE448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD208831BF92EDD000DE448 /* PBXTargetDependency */,
+			);
+			name = "tapper-extremeTests";
+			productName = "tapper-extremeTests";
+			productReference = AFD208811BF92EDD000DE448 /* tapper-extremeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFD2088B1BF92EDD000DE448 /* tapper-extremeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD2089B1BF92EDD000DE448 /* Build configuration list for PBXNativeTarget "tapper-extremeUITests" */;
+			buildPhases = (
+				AFD208881BF92EDD000DE448 /* Sources */,
+				AFD208891BF92EDD000DE448 /* Frameworks */,
+				AFD2088A1BF92EDD000DE448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD2088E1BF92EDD000DE448 /* PBXTargetDependency */,
+			);
+			name = "tapper-extremeUITests";
+			productName = "tapper-extremeUITests";
+			productReference = AFD2088C1BF92EDD000DE448 /* tapper-extremeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFD208651BF92EDC000DE448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ryan Huebert";
+				TargetAttributes = {
+					AFD2086C1BF92EDC000DE448 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					AFD208801BF92EDD000DE448 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AFD2086C1BF92EDC000DE448;
+					};
+					AFD2088B1BF92EDD000DE448 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AFD2086C1BF92EDC000DE448;
+					};
+				};
+			};
+			buildConfigurationList = AFD208681BF92EDC000DE448 /* Build configuration list for PBXProject "tapper-extreme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFD208641BF92EDC000DE448;
+			productRefGroup = AFD2086E1BF92EDC000DE448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFD2086C1BF92EDC000DE448 /* tapper-extreme */,
+				AFD208801BF92EDD000DE448 /* tapper-extremeTests */,
+				AFD2088B1BF92EDD000DE448 /* tapper-extremeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFD2086B1BF92EDC000DE448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD2087B1BF92EDC000DE448 /* LaunchScreen.storyboard in Resources */,
+				AFD208781BF92EDC000DE448 /* Assets.xcassets in Resources */,
+				AFD208761BF92EDC000DE448 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD2087F1BF92EDD000DE448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD2088A1BF92EDD000DE448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFD208691BF92EDC000DE448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD208731BF92EDC000DE448 /* ViewController.swift in Sources */,
+				AFD208711BF92EDC000DE448 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD2087D1BF92EDD000DE448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD208861BF92EDD000DE448 /* tapper_extremeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD208881BF92EDD000DE448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD208911BF92EDD000DE448 /* tapper_extremeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFD208831BF92EDD000DE448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFD2086C1BF92EDC000DE448 /* tapper-extreme */;
+			targetProxy = AFD208821BF92EDD000DE448 /* PBXContainerItemProxy */;
+		};
+		AFD2088E1BF92EDD000DE448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFD2086C1BF92EDC000DE448 /* tapper-extreme */;
+			targetProxy = AFD2088D1BF92EDD000DE448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFD208741BF92EDC000DE448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD208751BF92EDC000DE448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFD208791BF92EDC000DE448 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD2087A1BF92EDC000DE448 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFD208931BF92EDD000DE448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFD208941BF92EDD000DE448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFD208961BF92EDD000DE448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tapper-extreme/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanhuebert.tapper-extreme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFD208971BF92EDD000DE448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tapper-extreme/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanhuebert.tapper-extreme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AFD208991BF92EDD000DE448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tapper-extremeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanhuebert.tapper-extremeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tapper-extreme.app/tapper-extreme";
+			};
+			name = Debug;
+		};
+		AFD2089A1BF92EDD000DE448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tapper-extremeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanhuebert.tapper-extremeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tapper-extreme.app/tapper-extreme";
+			};
+			name = Release;
+		};
+		AFD2089C1BF92EDD000DE448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tapper-extremeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanhuebert.tapper-extremeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tapper-extreme";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AFD2089D1BF92EDD000DE448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tapper-extremeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanhuebert.tapper-extremeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tapper-extreme";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFD208681BF92EDC000DE448 /* Build configuration list for PBXProject "tapper-extreme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD208931BF92EDD000DE448 /* Debug */,
+				AFD208941BF92EDD000DE448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD208951BF92EDD000DE448 /* Build configuration list for PBXNativeTarget "tapper-extreme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD208961BF92EDD000DE448 /* Debug */,
+				AFD208971BF92EDD000DE448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFD208981BF92EDD000DE448 /* Build configuration list for PBXNativeTarget "tapper-extremeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD208991BF92EDD000DE448 /* Debug */,
+				AFD2089A1BF92EDD000DE448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFD2089B1BF92EDD000DE448 /* Build configuration list for PBXNativeTarget "tapper-extremeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD2089C1BF92EDD000DE448 /* Debug */,
+				AFD2089D1BF92EDD000DE448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFD208651BF92EDC000DE448 /* Project object */;
+}
